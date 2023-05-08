@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing</title>
+    <style>
+    body{
+        background: url(race.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        
+     }
+     .head{
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+     }
+     .navbar{
+        margin-top: 4px;
+        padding: 2px;
+     }
+     a{
+        text-decoration: none;
+        margin: 3px 4px;
+        padding: 12px ;
+        color: white;
+        font-family: serif;
+        font-size: large;
+       
+     }
+     a:hover{
+        color: black;
+        background-color: white ;
+     }
+     .log{
+        display: flex;
+        justify-content: left;
+     }
+     .logo{
+        width: 69px;
+        height: 54px;
+        display: inline-block;
+        position: static;
+        position: left 200px;
+        margin-left: 18px;
+        margin-top: 4px;
+     }
+     input{
+        width: 180px;
+        height: 15px;
+        margin-right: 15px;
+        margin-top: 16px;
+        padding: 2px 4px;
+     }
+     p{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        margin: 32px;
+        padding: 20px
+     }
+     .btn{
+        background-color: rgb(82, 87, 88);
+        color: white;
+        width: 80px;
+        height: 40px;
+        border: 2px solid rgba(82, 67, 87, 0);
+        border-radius: 7px;
+        display: block;
+        margin: 12px auto;
+        cursor: pointer;
+        
+     }
+     .btn:hover{
+        border: 2px solid black;
+        color: black;
+        font-size: 15px;
+     }
+     .box{
+        display: flex;
+        margin:  auto;
+        
+     }
+     .contact{
+        display: block;
+        margin: auto;
+        width: 20%;
+        color: rgb(2, 2, 2);
+        opacity: 0.4;
+        padding: 5px;
+    margin: 8px auto;
+     }
+    </style>
+</head>
+<body>
+   
+    <header class="head">
+    <div class="log">
+    <img src="logo.jpg" alt="no logo" class="logo" >
+    </div>   
+        <nav class="navbar">
+            <ul>
+                <a href="#####">Home</a>
+                <a href="#####">Services</a>
+                <a href="#####">Applications</a>
+                <a href="#####">Contact Us</a>
+            </ul>
+        </nav>
+        <input type="text" placeholder="Search">
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius esse libero sunt velit et quidem eos sit molestiae eum facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas eveniet eligendi harum voluptatibus et neque?</p>
+        <button class="btn">Vehicles</button>
+    </main>
+    <footer>
+        <div class="container">
+            <form>
+                <div class="box">
+                <input type="text" class="contact" placeholder="Enter your Name">
+            </div>
+            <div class="box">
+                <input type="text" class="contact" placeholder="Enter your Email">
+            </div>
+            <div class="box">
+                
+                <input type="password" class="contact" placeholder="Enter your Password">
+            </div><br>
+            <div class="box">
+            <button class="btn">Submit</button>
+            </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
